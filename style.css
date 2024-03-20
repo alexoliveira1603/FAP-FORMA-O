@@ -1,0 +1,65 @@
+h2{
+    color:orange;
+}
+
+body{
+    background-color: #305050;
+    color: white;
+    font-family: Roboto;
+    text-align: center;
+}
+
+header{
+    border-bottom: 1px solid grey;
+}
+
+footer{
+    border-top: 1px solid grey;
+}
+
+#nome-usuário{
+    font-weight: bold;
+}
+
+.texto-inglês{
+    font-style: italic;
+}
+
+
+
+
+
+<style>
+    .vermelho{
+        background-color: red;
+    }
+    .amarelo{
+        background-color: yellow;
+    }
+    .azul{
+        background-color: blue;
+    }
+</style>
+
+<table border="1">
+  <colgroup>
+    <col class="vermelho">
+    <col class="amarelo">
+    <col class="azul">
+  </colgroup>
+  <tr>
+    <th>Nome</th>
+    <th>Idade</th>
+    <th>Profissao</th>
+  </tr>
+  <tr>
+    <td>Ted</td>
+    <td>22</td>
+    <td>Estudante</td>
+  </tr>
+  <tr>
+    <td>Junior</td>
+    <td>26</td>
+    <td>Escritor</td>
+  </tr>
+</table>
